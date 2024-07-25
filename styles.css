@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.wrapper {
+    position: relative;
+}
 body {
     display: flex;
     align-items: center;
@@ -73,4 +76,9 @@ body {
     padding: 15px 0;
     background: #1bb295;
     border-radius: 5px;
+}
+.gamerTime {
+    position: absolute;
+    right: 30px;
+    top: 30px;
 }
